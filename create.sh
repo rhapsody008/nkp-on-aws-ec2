@@ -16,8 +16,8 @@ export CONTROLPLANE_INSTANCE_TYPE="c5.2xlarge"
 export CONTROLPLANE_REPLICAS=1
 export CONTROLPLANE_IAM_INSTANCE_PROFILE="control-plane.cluster-api-provider-aws.sigs.k8s.io"
 
-export WORKER_INSTANCE_TYPE="c5.2xlarge"
-export WORKER_REPLICAS=1
+export WORKER_INSTANCE_TYPE="m5.2xlarge"
+export WORKER_REPLICAS=4
 export WORKER_IAM_INSTANCE_PROFILE="nodes.cluster-api-provider-aws.sigs.k8s.io"
 
 export KUBERNETES_VERSION="1.33.5"
